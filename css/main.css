@@ -216,7 +216,7 @@ a {
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
+  transition: all 0.3s ease-in-out;
   text-decoration: none;
   color: #482600;
 }
@@ -246,7 +246,7 @@ a {
     width: 100%;
 
     height: 90px;
-    padding: 10px 20px 10px 0;
+    padding: 10px 0px 10px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -359,6 +359,12 @@ a {
   width: 200px;
   height: 60px;
 }
+.home__google-button_link:hover .home__google-button_image {
+  /* content: url("./image/home/Button-hover.png"); */
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
 @media screen and (min-width: 1200px) {
   .home {
     width: 1440px;
@@ -1140,24 +1146,21 @@ a {
 }
 .features {
   width: 375px;
-
   margin: auto;
   padding: 64px 16px 89px;
-  background: #ffbb5b;
 }
 
 .features-list {
   padding-top: 64px;
-  margin: auto;
+
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 16px;
-  row-gap: 32px;
 }
 .features-item {
   width: 163px;
   height: 230px;
+  margin: auto;
 }
 .features-img {
   margin: 16px auto;
@@ -1321,8 +1324,6 @@ a {
   }
 }
 .policy-terms-container {
-  flex-direction: column;
-  align-items: start;
   padding: 124px 16px 116px;
   background-color: #fff7eb;
 }
@@ -1409,7 +1410,6 @@ a {
 @media screen and (min-width: 1200px) {
   .policy-terms-container {
     padding: 186px 80px 116px;
-    align-items: start;
   }
   .policy-terms-title {
     font-family: Comme;
