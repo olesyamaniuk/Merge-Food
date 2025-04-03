@@ -234,7 +234,6 @@ a {
   }
 
   .class-navigation-link {
-    color: #fae599;
     padding: 0px 24px;
     text-decoration: none;
   }
@@ -273,7 +272,7 @@ a {
 .class-home-text {
 }
 
-.class-home-google-buttonimage {
+.class-home-google-button-image {
   width: 200px;
   height: 60px;
 }
@@ -307,9 +306,9 @@ a {
 }
 .class-why {
   width: 375px;
-  height: 1085px;
   margin: auto;
   padding: 77px 15px 0;
+  height: 1085px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -325,7 +324,7 @@ a {
 
 .class-why-item {
   display: flex;
-  gap: 16px;
+  gap: px;
   align-items: center;
 }
 
@@ -338,17 +337,17 @@ a {
 @media screen and (min-width: 1200px) {
   .class-why {
     width: 1440px;
-    height: 700px;
     padding: 91px 189px 0;
+    height: 700px;
     background-image: url("/img");
   }
 }
 
 .class-uniqueness {
   width: 375px;
-  height: 868px;
   margin: auto;
   padding: 64px 16px 0;
+  height: 868px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -371,8 +370,8 @@ a {
 @media screen and (min-width: 1200px) {
   .class-uniqueness {
     width: 1440px;
-    height: 700px;
     padding: 72px 408px 0;
+    height: 700px;
     background-image: url("/img");
   }
 }
@@ -380,7 +379,7 @@ a {
   padding: 64px 16px 0px;
   margin: auto;
   width: 375px;
-  height: 574px;
+  height: px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -408,9 +407,9 @@ a {
 }
 .class-how {
   width: 375px;
-  height: px;
   margin: auto;
   padding: 64px 16px 0;
+  height: px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -440,8 +439,8 @@ a {
 @media screen and (min-width: 1200px) {
   .class-how {
     width: 1440px;
-    height: px;
     padding: px;
+    height: px;
     background-image: url("/img");
   }
 }
@@ -481,9 +480,9 @@ a {
 
 .class-reviews {
   width: 375px;
-  height: px;
   margin: auto;
   padding: 0px 16px 0;
+  height: px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -546,7 +545,7 @@ a {
   padding: 0px 16px 0px;
   margin: auto;
   width: 375px;
-  min-height: px;
+  height: px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -585,14 +584,15 @@ a {
   .class-faq {
     padding: ;
     width: 1440px;
+    height: px;
     background-image: url("/img");
   }
 }
 .class-gallery {
   width: 375px;
-  height: px;
   margin: auto;
   padding: px 16px;
+  height: px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -624,8 +624,9 @@ a {
 @media screen and (min-width: 1200px) {
   .class-gallery {
     width: 1440px;
-    height: px;
+
     padding: 72px 0 0;
+    height: px;
     background-image: url("/img");
   }
 
@@ -644,6 +645,8 @@ a {
   width: 375px;
   margin: auto;
   padding: 64px 16px 89px;
+  height: px;
+  background-image: url("/img");
 }
 
 .class-features-list {
@@ -672,11 +675,13 @@ a {
   .class-features {
     width: 1440px;
     padding: ;
+    height: px;
+    background-image: url("/img");
   }
 }
 
 .class-policy-terms-container {
-  padding: 124px 16px 116px;
+  padding: 124px 16px 40px;
   width: 375px;
   margin: auto;
 }
@@ -793,23 +798,9 @@ a {
   }
 
   .class-footer-text {
-    font-family: Lora;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
   }
 
   .class-footer-copyright {
-    font-family: Lora;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
   }
 }
 
@@ -827,7 +818,6 @@ a {
 }
 
 .class-cookie-popup-text-two {
-  text-align: left;
   color: rgba(87, 78, 68, 1);
 }
 
