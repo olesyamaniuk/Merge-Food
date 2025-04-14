@@ -800,14 +800,10 @@ a {
     padding: 20px 0 20px 25px;
   }
 }
-.class-footer {
-  width: 375px;
-  margin: auto;
-  color: #ffffff;
-  padding: 58px 16px 49px;
-}
 
 .class-footer-container {
+  width: 375px;
+  padding: ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -824,19 +820,16 @@ a {
 
 .class-footer-text {
   text-decoration: none;
-  color: #ffffff;
+  color: inherit;
 }
 
 .class-footer-copyright {
 }
 
 @media screen and (min-width: 1200px) {
-  .class-footer {
+  .class-footer-container {
     width: 1440px;
     padding: 48px 199px;
-  }
-
-  .class-footer-container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: end;
