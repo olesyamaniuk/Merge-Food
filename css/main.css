@@ -624,7 +624,7 @@ a {
   background-position: center;
   background-image: url("/img");
 }
-.class-gallery {
+.class-gallery-container {
   width: 375px;
   margin: auto;
   padding: px;
@@ -677,7 +677,7 @@ a {
     height: px;
     background-image: url("/img");
   }
-  .class-gallery {
+  .class-gallery-container {
     width: 1440px;
     margin: auto;
     padding: px;
