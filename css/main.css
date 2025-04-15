@@ -41,7 +41,11 @@ img {
   display: block;
   height: auto;
 }
-
+figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 .list {
   list-style: none;
 }
@@ -352,7 +356,7 @@ a {
     height: px;
     background-image: url("/img");
   }
-  .class-features-container {
+  .class-why-container {
     width: 1440px;
     padding: ;
   }
@@ -735,74 +739,79 @@ a {
   }
 }
 
-.class-policy-terms-container {
-  padding: 124px 16px 40px;
+.class-container {
+  padding: 120px 16px 40px;
   width: 375px;
   margin: auto;
 }
 
-.class-policy-terms-title {
-  text-transform: uppercase;
+h1 {
 }
 
-.class-policy-terms-text {
-  padding-top: 20px;
+h2 {
+  margin-top: 10px;
 }
 
-.class-policy-terms-texts {
-  padding-top: 8px;
+h3 {
+  margin-top: 10px;
 }
 
-.class-policy-terms-text-one {
-  padding-top: 20px;
+ul {
+  margin-top: 10px;
 }
 
-.class-terms-list {
-  list-style-type: disc;
-  padding: 20px 0 20px 25px;
-  display: flex;
-  flex-direction: column;
+li {
+  margin-bottom: 10px;
 }
-
-.class-terms-lists {
-  list-style-type: disc;
-  padding-left: 25px;
+p {
+  margin-top: 10px;
 }
-
-.class-email-link {
-  color: inherit;
+a {
   text-decoration: none;
-}
-
-.class-email-link-color {
   color: inherit;
-  text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
-@media screen and (min-width: 1200px) {
-  .class-policy-terms-container {
-    padding: 186px 80px 60px;
+.container a:hover {
+  text-decoration: underline;
+}
+
+strong {
+  color: #000;
+}
+@media screen and (min-width: 1117px) {
+  .class-container {
+    padding: 160px 160px 80px;
     width: 1440px;
+    margin: auto;
   }
 
-  .class-policy-terms-title {
+  h1 {
   }
 
-  .class-policy-terms-text {
-    padding-top: 40px;
+  h2 {
+    margin-top: 20px;
   }
 
-  .class-policy-terms-text-one {
-    padding-top: 30px;
+  h3 {
+    margin-top: 20px;
   }
 
-  .class-terms-list {
-    padding: 20px 0 20px 25px;
+  ul {
+    margin-top: 20px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-top: 20px;
   }
 }
 
 .class-footer-container {
   width: 375px;
+  margin: auto;
   padding: ;
   display: flex;
   flex-direction: column;
