@@ -700,42 +700,46 @@ a {
   margin: auto;
   width: 375px;
   height: px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-image: url("/img");
 }
+
 .class-features-container {
   width: 375px;
   margin: auto;
-  padding: 64px 16px 89px;
+  padding: ;
 }
-.class-features-list {
-  padding-top: px;
+.class-features-text-bold {
+}
+.class-features-div {
+  display: flex;
+  flex-direction: column;
+  gap: ;
+  padding-top: ;
+}
+.class-features-form {
   display: flex;
   flex-direction: column;
   gap: px;
 }
-
-.class-features-item {
+.class-features-input {
 }
-
-.class-features-img {
+.class-features-textarea {
 }
-
-.class-features-text-bold {
+.class-features-button {
 }
-
-.class-features-text {
-}
-
 @media screen and (min-width: 1200px) {
-  .class-features {
-    width: 1440px;
-    height: px;
-    background-image: url("/img");
-  }
   .class-features-container {
     width: 1440px;
     margin: auto;
-    padding: px;
+    padding: ;
+  }
+  .class-features-container {
+    width: 375px;
+    margin: auto;
+    padding: ;
   }
 }
 
@@ -745,66 +749,66 @@ a {
   margin: auto;
 }
 
-h1 {
+.class-container h1 {
 }
 
-h2 {
+.class-container h2 {
   margin-top: 10px;
 }
 
-h3 {
+.class-container h3 {
   margin-top: 10px;
 }
 
-ul {
+.class-container ul {
   margin-top: 10px;
 }
 
-li {
+.class-container ul li {
   margin-bottom: 10px;
 }
-p {
+.class-container p {
   margin-top: 10px;
 }
-a {
+.class-container a {
   text-decoration: none;
   color: inherit;
   transition: all 0.3s ease-in-out;
 }
 
-.container a:hover {
+.class-container a:hover {
   text-decoration: underline;
 }
 
 strong {
   color: #000;
 }
-@media screen and (min-width: 1117px) {
+@media screen and (min-width: 1200px) {
   .class-container {
     padding: 160px 160px 80px;
     width: 1440px;
     margin: auto;
   }
 
-  h1 {
+  .class-container h1 {
   }
 
-  h2 {
+  .class-container h2 {
     margin-top: 20px;
   }
 
-  h3 {
+  .class-container h3 {
     margin-top: 20px;
   }
 
-  ul {
+  .class-container ul {
     margin-top: 20px;
   }
 
-  li {
+  .class-container ul li {
     margin-bottom: 10px;
   }
-  p {
+  .class-container p {
     margin-top: 20px;
   }
 }
