@@ -782,7 +782,33 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.class-policy-terms-container h1 {
+  text-transform: uppercase;
+  font-family: Chewy;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 78, 177, 1);
+}
+.class-policy-terms-container h2 {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-top: 20px;
+}
+.class-policy-terms-container ul {
+  list-style-type: disc;
+  margin: 0px 0 0 20px;
+}
 
+.class-email-link {
+  color: inherit;
+  text-decoration: none;
+}
 @media screen and (min-width: 1200px) {
   .class-policy-terms-container {
     padding: 186px 80px 60px;
