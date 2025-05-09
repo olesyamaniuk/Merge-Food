@@ -33,7 +33,18 @@ function toggleAnswer(element) {
     buttonImg.src = "/img/faq/icon.png";
   }
 }
+function toggleAnswer(element) {
+  const answer = element.nextElementSibling;
+  const buttonImg = element.querySelector(".class-toggle-button img");
 
+  if (answer.style.display === "none" || answer.style.display === "") {
+    answer.style.display = "block";
+    buttonImg.style.transform = "rotate(180deg)";
+  } else {
+    answer.style.display = "none";
+    buttonImg.style.transform = "rotate(0deg)";
+  }
+}
 document.addEventListener("DOMContentLoaded", function () {
   const popup = document.getElementById("cookie-popup");
   const acceptButton = document.getElementById("accept-cookies");
