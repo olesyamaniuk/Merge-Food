@@ -197,10 +197,12 @@ a {
   .class-navigation-img {
     display: flex;
   }
-  .class-policy-terms-header-icon-menu {
+  .class-header-icon-title {
     display: none;
   }
-
+  .class-header-button-wrapper {
+    display: none;
+  }
   .class-header {
     width: 100%;
     height: 70px;
@@ -285,15 +287,13 @@ a {
 .class-home-text {
 }
 
-.class-home-google-button-image {
+.class-home-link {
   width: 200px;
   height: 60px;
+  transition: all 0.3s ease-in-out;
 }
 
-.class-home-google-button-link:hover .class-home-google-button-image {
-  /* content: url("/img/home"); */
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
+.cclass-home-link:hover {
 }
 
 @media screen and (min-width: 1200px) {
@@ -317,6 +317,41 @@ a {
   }
 
   .class-home-text {
+  }
+}
+.class-about {
+  margin: auto;
+  width: 375px;
+  height: px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img");
+}
+.class-about-container {
+  width: 375px;
+  padding: 64px 16px 0px;
+  margin: auto;
+}
+.class-about-title {
+  -webkit-text-stroke: 1px#FFFFFF99;
+  color: #297d17;
+}
+.class-about-text {
+}
+
+.class-about-text-bold {
+}
+
+@media screen and (min-width: 1200px) {
+  .class-about {
+    width: 1440px;
+    height: px;
+    background-image: url("/img");
+  }
+  .class-about-container {
+    width: 1440px;
+    padding: ;
   }
 }
 .class-why {
@@ -395,41 +430,6 @@ a {
   }
   .class-uniqueness-container {
     margin: auto;
-    width: 1440px;
-    padding: ;
-  }
-}
-.class-about {
-  margin: auto;
-  width: 375px;
-  height: px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: url("/img");
-}
-.class-about-container {
-  width: 375px;
-  padding: 64px 16px 0px;
-  margin: auto;
-}
-.class-about-title {
-  -webkit-text-stroke: 1px#FFFFFF99;
-  color: #297d17;
-}
-.class-about-text {
-}
-
-.class-about-text-bold {
-}
-
-@media screen and (min-width: 1200px) {
-  .class-about {
-    width: 1440px;
-    height: px;
-    background-image: url("/img");
-  }
-  .class-about-container {
     width: 1440px;
     padding: ;
   }
