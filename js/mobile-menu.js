@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     navigationRef.classList.toggle("is-open");
   });
 
-  document.querySelectorAll(".navigation__link").forEach((n) =>
+  document.querySelectorAll(".class-navigation-link").forEach((n) =>
     n.addEventListener("click", () => {
       navListRef.classList.remove("is-open");
       menuBtnRef.classList.remove("is-open");
@@ -37,12 +37,14 @@ function toggleAnswer(element) {
   const answer = element.nextElementSibling;
   const buttonImg = element.querySelector(".class-toggle-button img");
 
-  if (answer.style.display === "none" || answer.style.display === "") {
-    answer.style.display = "block";
-    buttonImg.style.transform = "rotate(180deg)";
+  answer.classList.toggle("open");
+
+  if (answer.classList.contains("open")) {
+    buttonImg.src = "/img/Minus.png";
+    buttonImg.classList.add("rotated");
   } else {
-    answer.style.display = "none";
-    buttonImg.style.transform = "rotate(0deg)";
+    buttonImg.src = "/img/Add.png";
+    buttonImg.classList.remove("rotated");
   }
 }
 document.addEventListener("DOMContentLoaded", function () {

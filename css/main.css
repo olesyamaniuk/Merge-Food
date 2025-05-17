@@ -242,6 +242,7 @@ a {
     justify-content: center;
     align-items: center;
     justify-content: center;
+    padding: 0;
   }
 
   .class-navigation-link {
@@ -598,8 +599,29 @@ a {
   border: none;
   cursor: pointer;
 }
+
 .class-toggle-button img {
   transition: transform 0.3s ease;
+}
+.class-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+  padding-top: 0;
+}
+
+.class-faq-answer.open {
+  max-height: 200px;
+  opacity: 1;
+}
+
+.class-toggle-button img {
+  transition: transform 0.3s ease;
+}
+
+.class-toggle-button img.rotated {
+  transform: rotate(180deg);
 }
 @media screen and (min-width: 1200px) {
   .class-faq {
