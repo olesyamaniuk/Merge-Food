@@ -25,18 +25,6 @@ function toggleAnswer(element) {
   const answer = element.nextElementSibling;
   const buttonImg = element.querySelector(".class-toggle-button img");
 
-  if (answer.style.display === "none" || answer.style.display === "") {
-    answer.style.display = "block";
-    buttonImg.src = "/img/faq/arrow.png";
-  } else {
-    answer.style.display = "none";
-    buttonImg.src = "/img/faq/icon.png";
-  }
-}
-function toggleAnswer(element) {
-  const answer = element.nextElementSibling;
-  const buttonImg = element.querySelector(".class-toggle-button img");
-
   answer.classList.toggle("open");
 
   if (answer.classList.contains("open")) {

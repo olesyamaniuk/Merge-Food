@@ -591,8 +591,6 @@ a {
 }
 
 .class-faq-answer {
-  display: none;
-  padding-top: 16px;
 }
 .class-toggle-button {
   background: none;
@@ -608,16 +606,12 @@ a {
   overflow: hidden;
   transition: max-height 0.4s ease, opacity 0.4s ease;
   opacity: 0;
-  padding-top: 0;
 }
 
 .class-faq-answer.open {
   max-height: 200px;
   opacity: 1;
-}
-
-.class-toggle-button img {
-  transition: transform 0.3s ease;
+  padding-top: 16px;
 }
 
 .class-toggle-button img.rotated {
@@ -761,59 +755,10 @@ a {
   margin: auto;
 }
 
-.class-policy-terms-title {
-  text-transform: uppercase;
-}
-
-.class-policy-terms-text {
-  padding-top: 20px;
-}
-
-.class-policy-terms-texts {
-  padding-top: 8px;
-}
-
-.class-policy-terms-text-one {
-  padding-top: 20px;
-}
-
-.class-terms-list {
-  list-style-type: disc;
-  padding: 20px 0 20px 25px;
-  display: flex;
-  flex-direction: column;
-}
-
-.class-terms-lists {
-  list-style-type: disc;
-  padding-left: 25px;
-}
-
-.class-email-link {
-  color: inherit;
-  text-decoration: none;
-}
-
-.class-email-link-color {
-  color: inherit;
-  text-decoration: none;
-}
 .class-policy-terms-container h1 {
   text-transform: uppercase;
-  font-family: Chewy;
-  font-weight: 400;
-  font-size: 38px;
-  line-height: 150%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: rgba(255, 78, 177, 1);
 }
 .class-policy-terms-container h2 {
-  font-family: Quicksand;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0%;
   margin-top: 20px;
 }
 .class-policy-terms-container ul {
@@ -830,20 +775,15 @@ a {
     padding: 186px 80px 60px;
     width: 1440px;
   }
-
-  .class-policy-terms-title {
+  .class-policy-terms-container h1 {
+    text-transform: uppercase;
   }
-
-  .class-policy-terms-text {
-    padding-top: 40px;
+  .class-policy-terms-container h2 {
+    margin-top: 20px;
   }
-
-  .class-policy-terms-text-one {
-    padding-top: 30px;
-  }
-
-  .class-terms-list {
-    padding: 20px 0 20px 25px;
+  .class-policy-terms-container ul {
+    list-style-type: disc;
+    margin: 0px 0 0 20px;
   }
 }
 
@@ -878,7 +818,7 @@ a {
     width: 1440px;
     padding: 48px 199px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: ;
     justify-content: end;
     align-items: center;
     gap: 160px;
