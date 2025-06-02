@@ -181,7 +181,7 @@ a {
 }
 
 .class-navigation-link:hover,
-.class-navigatioт-link:focus {
+.class-navigation-link:focus {
   color: #297d17;
 }
 
@@ -206,7 +206,7 @@ a {
   .class-header {
     width: 100%;
     height: 70px;
-    padding: 10px 0px 10px 20px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,10 +242,10 @@ a {
     justify-content: center;
     align-items: center;
     justify-content: center;
+    padding: 0;
   }
 
   .class-navigation-link {
-    padding: 0px 24px;
     text-decoration: none;
   }
 
@@ -260,7 +260,7 @@ a {
 }
 .class-home {
   width: 375px;
-  height: 742px;
+  height: px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -278,7 +278,8 @@ a {
   flex-direction: column;
   align-items: start;
 }
-
+.class-home-title-img {
+}
 .class-home-title {
   -webkit-text-stroke: 1px #ffffff;
   color: #482600;
@@ -293,13 +294,13 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.cclass-home-link:hover {
+.class-home-link:hover {
 }
 
 @media screen and (min-width: 1200px) {
   .class-home {
     width: 1440px;
-    height: 784px;
+    height: px;
     background-image: url("/img/home");
   }
   .class-home-container {
@@ -310,9 +311,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
-
+  .class-home-title-img {
+  }
   .class-home-title {
   }
 
@@ -380,6 +381,8 @@ a {
   gap: px;
   align-items: center;
 }
+.class-why-img {
+}
 .class-why-text-bold {
 }
 .class-why-text {
@@ -416,6 +419,10 @@ a {
   display: flex;
   flex-direction: column;
   gap: px;
+}
+.class-uniqueness-item {
+}
+.class-uniqueness-img {
 }
 .class-uniqueness-text-bold {
 }
@@ -459,7 +466,6 @@ a {
 }
 
 .class-how-img {
-  margin: auto;
 }
 
 .class-how-text-bold {
@@ -501,7 +507,10 @@ a {
   padding-top: px;
   gap: px;
 }
-
+.class-characters-item {
+}
+.class-characters-img {
+}
 .class-characters-text-bold {
 }
 
@@ -548,7 +557,8 @@ a {
   gap: px;
   align-items: center;
 }
-
+.class-reviews-img {
+}
 .class-reviews-text-bold {
 }
 
@@ -599,13 +609,31 @@ a {
 }
 
 .class-faq-answer {
-  display: none;
-  padding-top: 16px;
 }
 .class-toggle-button {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+.class-toggle-button img {
+  transition: transform 0.3s ease;
+}
+.class-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+}
+
+.class-faq-answer.open {
+  max-height: 200px;
+  opacity: 1;
+  padding-top: 16px;
+}
+
+.class-toggle-button img.rotated {
+  transform: rotate(180deg);
 }
 @media screen and (min-width: 1200px) {
   .class-faq {
