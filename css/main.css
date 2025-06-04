@@ -279,7 +279,8 @@ a {
   flex-direction: column;
   align-items: start;
 }
-
+.class-home-title-img {
+}
 .class-home-title {
   -webkit-text-stroke: 1px #ffffff;
   color: #482600;
@@ -304,7 +305,8 @@ a {
     align-items: center;
     justify-content: center;
   }
-
+  .class-home-title-img {
+  }
   .class-home-title {
   }
 
@@ -372,6 +374,8 @@ a {
   gap: px;
   align-items: center;
 }
+.class-why-img {
+}
 .class-why-text-bold {
 }
 .class-why-text {
@@ -408,6 +412,10 @@ a {
   display: flex;
   flex-direction: column;
   gap: px;
+}
+.class-uniqueness-item {
+}
+.class-uniqueness-img {
 }
 .class-uniqueness-text-bold {
 }
@@ -493,7 +501,10 @@ a {
   padding-top: px;
   gap: px;
 }
-
+.class-characters-item {
+}
+.class-characters-img {
+}
 .class-characters-text-bold {
 }
 
@@ -540,7 +551,8 @@ a {
   gap: px;
   align-items: center;
 }
-
+.class-reviews-img {
+}
 .class-reviews-text-bold {
 }
 
@@ -681,7 +693,8 @@ a {
     -webkit-transition: scale 0.3s ease;
     transition: scale 0.3s ease;
   }
-
+  .class-gallery-button-icon {
+  }
   .class-gallery-button:hover {
     scale: 120%;
   }
@@ -757,15 +770,19 @@ a {
 
 .class-policy-terms-container h1 {
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .class-policy-terms-container h2 {
-  margin-top: 20px;
+  margin-bottom: ;
 }
 .class-policy-terms-container ul {
   list-style-type: disc;
-  margin: 0px 0 0 20px;
+  margin-left: 20px;
+  margin-bottom: ;
 }
-
+.class-policy-terms-container p {
+  margin-bottom: ;
+}
 .class-email-link {
   color: inherit;
   text-decoration: none;
@@ -776,14 +793,10 @@ a {
     width: 1440px;
   }
   .class-policy-terms-container h1 {
-    text-transform: uppercase;
   }
   .class-policy-terms-container h2 {
-    margin-top: 20px;
   }
-  .class-policy-terms-container ul {
-    list-style-type: disc;
-    margin: 0px 0 0 20px;
+  .class-policy-terms-container p {
   }
 }
 
