@@ -288,6 +288,13 @@ a {
 
 .class-home-text {
 }
+.class-home-link {
+  transition: all 0.3s ease-in-out;
+}
+
+.class-home-link:hover {
+  transform: scale(1.1);
+}
 
 @media screen and (min-width: 1200px) {
   .class-home {
