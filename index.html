@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title></title>
-    <link rel="icon" href="img" />
+    <link rel="icon" href="img/1.png" />
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" href="css/main.css" />
@@ -296,52 +296,84 @@
       </section>
       <section class="class-features" id="features">
         <div class="class-features-container">
-          <h2 class="class-about-title">Kontakt</h2>
-          <p class="class-features-text-bold">
-            Email:
-            <a class="class-features-text-bold" href="mailto:info@fbrelucye.xyz"
-              >info@fbrelucye.xyz</a
-            >
-          </p>
+          <h2 class="class-about-title">
+            Need Help? Or Want to Show Us a Feature Idea?
+          </h2>
           <div class="class-features-div">
-            <form
-              class="class-features-form"
-              action="info@domain.com"
-              method="POST"
-              enctype="text/plain"
-            >
-              <input
-                class="class-features-input"
-                type="text"
-                name="name"
-                placeholder="Imię i Nazwisko"
-                required
-              /><input
-                class="class-features-input"
-                type="tel"
-                name="phone"
-                placeholder="Telefon"
-                required
-              />
-              <input
-                class="class-features-input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-                required
-              />
-              <textarea
-                class="class-features-input class-features-textarea"
-                name="message"
-                placeholder="Mesaj"
-                required
-              ></textarea>
-              <button class="class-features-button" type="submit">
-                Zamów narzędzie czasu
-              </button>
-            </form>
+            <div>
+              <form class="class-contact-form" id="contact-form">
+                <label>
+                  <input
+                    checked
+                    class="class-features-input"
+                    placeholder="Name"
+                    type="text"
+                    name="name"
+                    required
+                  />
+                </label>
 
-            <img class="class-features-img" src="/img" alt="" />
+                <label>
+                  <input
+                    type="email"
+                    class="class-features-input"
+                    placeholder="Email Address"
+                    name="email"
+                    required
+                  />
+                </label>
+                <label>
+                  <input
+                    type="text"
+                    class="class-features-input"
+                    placeholder="Role (Freelancer / Startup / Team)"
+                    required
+                  />
+                </label>
+                <label>
+                  <textarea
+                    class="class-features-input class-features-textarea"
+                    placeholder="Message"
+                    name="message"
+                    rows="1"
+                    required
+                  ></textarea>
+                </label>
+
+                <button type="submit" class="class-features-button">
+                  <img
+                    class="class-home-link"
+                    src="/img/features/Button (2).png"
+                    alt=""
+                  />
+                </button>
+              </form>
+
+              <div id="success-popup" class="modal-form hidden">
+                ✅ Your message has been sent!
+              </div>
+            </div>
+            <div>
+              <img
+                class="class-features-img"
+                src="/img/features/img.png"
+                alt=""
+              />
+              <div class="class-features-div-two">
+                <div class="class-features-div-item">
+                  <img
+                    style="width: 40px"
+                    src="/img/features/Icon.png"
+                    alt=""
+                  />
+                  <a
+                    class="class-features-div-item-text"
+                    href="mailto:info@blitzfizu.pro"
+                    >info@blitzfizu.pro</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

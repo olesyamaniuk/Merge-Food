@@ -53,10 +53,36 @@ figure {
 button,
 a {
   cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
 }
 
 .button:hover {
   scale: 120%;
+}
+.modal-form {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #222221;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.modal-form.show {
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
 }
 
 .class-header.is-open .class-header-background {
@@ -739,33 +765,60 @@ a {
   margin: auto;
   padding: ;
 }
-.class-features-text-bold {
-}
 .class-features-div {
   display: flex;
   flex-direction: column;
-  gap: ;
-  padding-top: ;
+  margin-top: 32px;
 }
-.class-features-form {
+
+.class-contact-form {
   display: flex;
   flex-direction: column;
-  gap: px;
+  gap: 40px;
 }
+
 .class-features-input {
+  border: none;
+}
+.class-features-input::placeholder {
 }
 .class-features-textarea {
 }
 .class-features-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
 }
+.class-features-img {
+  width: 287px;
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 32px;
+}
+.class-features-div-two {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.class-features-div-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.class-features-div-item-text {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1200px) {
-  .class-features-container {
+  .class-features-input {
     width: 1440px;
     margin: auto;
     padding: ;
   }
   .class-features-container {
-    width: 375px;
+    width: 1440px;
     margin: auto;
     padding: ;
   }
