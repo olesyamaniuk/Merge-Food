@@ -130,6 +130,17 @@ a {
   box-shadow: 4px 7px 9px 0px #00000040;
 }
 
+.class-navigation {
+  display: -ms-flexbox;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  width: 375px;
+  padding: 10px 12px;
+  position: relative;
+}
+
 .class-header-background {
   position: absolute;
   top: 0;
@@ -161,22 +172,6 @@ a {
 
 .class-header-icon-button.is-open .class-header-icon-close {
   display: block;
-}
-
-.class-navigation {
-  display: -ms-flexbox;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding: 10px 12px;
-  position: relative;
 }
 
 .class-navigation-list {
@@ -230,13 +225,15 @@ a {
     display: none;
   }
   .class-header {
-    width: 100%;
+    width: 1440px;
     height: 70px;
 
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .class-header-background {
@@ -245,12 +242,13 @@ a {
     display: none;
   }
   .class-navigation {
-    display: flex;
+    width: 1440px;
     flex-direction: row;
     flex: 1;
-    padding: 0;
-    width: 1440px;
-    margin: auto;
+    display: flex;
+    height: 70px;
+    padding: 0 70px;
+    gap: 100px;
   }
 
   .class-navigation-list {
@@ -259,16 +257,16 @@ a {
     display: flex;
     position: static;
     width: 1440px;
-    margin: auto;
+    margin: 0;
     padding-block: 0;
     flex: 1;
     gap: 13px;
-    height: 0px;
+    height: 00px;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    justify-content: center;
-    padding: 0;
+
+    padding: 0 0px;
   }
 
   .class-navigation-link {
@@ -812,13 +810,13 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .class-features-input {
+  .class-features {
     width: 1440px;
-    margin: auto;
-    padding: ;
+    height: px;
   }
+
   .class-features-container {
-    width: 1440px;
+    width: 144px;
     margin: auto;
     padding: ;
   }
