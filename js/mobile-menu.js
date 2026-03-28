@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   );
 });
-
 function toggleAnswer(element) {
   const answer = element.nextElementSibling;
   const buttonImg = element.querySelector(".class-toggle-button img");
